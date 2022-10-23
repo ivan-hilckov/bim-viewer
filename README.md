@@ -23,6 +23,11 @@ npm run build
 npm run lint
 ```
 
+### Docker run 
+```
+docker-compose -f docker-compose.dev.yml up --build
+```
+
 ## Features
 - Orthographic camera
 ![ortho.gif](public/images/snapshots/ortho.gif)
